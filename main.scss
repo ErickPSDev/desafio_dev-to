@@ -40,6 +40,12 @@
     border-bottom: 1px solid #d6d6d7;
     background: #fff;
   }
+
+  #header2{
+    display: flex;
+    justify-content: space-around;
+width: 1650px;
+  }
   
   #leftside {
     display: flex;
@@ -433,4 +439,89 @@
   
   .card {
     margin-top: 16px;
+  }
+
+  /*Responsividad */
+
+  @media screen and (max-width: 767px) { 
+
+  #inputseach{
+    display:none;
+  }  
+
+  #login{
+    display:none;
+  }
+
+  #header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+#dev{
+  position: absolute;
+  bottom: 5px;
+}
+
+#rightside{
+  display:none;
+}
+#leftsideaside{
+  display:none;
+}
+
+#supercontainer{
+  height: 150vh;
+}
+
+#footer{
+  width: 760px;
+  padding: 20px;
+p{
+  text-align: center;
+}
+
+}
+#g-search-button{
+  display:none;
+}
+  }
+
+
+
+/*Responsividad segunda pagina*/
+
+@media screen and (max-width: 767px) { 
+
+ #iconos-izq{
+   display: none;
+ }
+
+ #asideDerecho{
+   display:none;
+ }
+
+ #containermidpost{
+  
+   width: 650px;
+   margin-left:-60px;
+ }
+ #barraBusqueda{
+   display: none;;
+ }
+
+ #search1{
+   display:none;
+ }
+ #mainhead{
+   width: 650px;
+   margin-left: 62px;
+   display: flex;
+   justify-content: space-between;
+ }
+
+ #footer{
+  width: 650px;
+  margin-left:65px;
+ }
   }

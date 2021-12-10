@@ -45,6 +45,15 @@ header {
   background: #fff;
 }
 
+#header2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1650px;
+}
+
 #leftside {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -467,5 +476,83 @@ header {
 
 .card {
   margin-top: 16px;
+}
+
+/*Responsividad */
+@media screen and (max-width: 767px) {
+  #inputseach {
+    display: none;
+  }
+  #login {
+    display: none;
+  }
+  #header2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #dev {
+    position: absolute;
+    bottom: 5px;
+  }
+  #rightside {
+    display: none;
+  }
+  #leftsideaside {
+    display: none;
+  }
+  #supercontainer {
+    height: 150vh;
+  }
+  #footer {
+    width: 760px;
+    padding: 20px;
+  }
+  #footer p {
+    text-align: center;
+  }
+  #g-search-button {
+    display: none;
+  }
+}
+
+/*Responsividad segunda pagina*/
+@media screen and (max-width: 767px) {
+  #iconos-izq {
+    display: none;
+  }
+  #asideDerecho {
+    display: none;
+  }
+  #containermidpost {
+    width: 650px;
+    margin-left: -60px;
+  }
+  #barraBusqueda {
+    display: none;
+  }
+  #search1 {
+    display: none;
+  }
+  #mainhead {
+    width: 650px;
+    margin-left: 62px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #footer {
+    width: 650px;
+    margin-left: 65px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
