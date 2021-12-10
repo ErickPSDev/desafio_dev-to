@@ -14,6 +14,23 @@
   }
   
   //Header
+
+  header {
+    position: sticky;
+    top: 0;
+  }
+
+  #g-search-button {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: -22px;
+    top: 3px;
+    margin-right: 30px;
+  
+    background-image: url(search-svgrepo-com.svg);
+  } 
   
   #mainhead {
     display: flex;
