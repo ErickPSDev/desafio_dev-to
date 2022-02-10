@@ -15,7 +15,7 @@ function initializeApp() {
 
     posts = [{
         id: 1,
-        title: 'Mi segundo post',
+        title: 'Mi primer post',
         date: new Date(),
         user: 'Heidel',
         keywords: ['js', 'html', 'css'],
