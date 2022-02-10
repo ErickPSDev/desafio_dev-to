@@ -57,7 +57,7 @@ function addPost(event) {
  */
 function printPosts() {
     const templatePosts = posts.map(post => createTemplate(post)); // genera un nuevo arreglo procesando todos los posts, con ayuda del metodo map
-    const main = document.getElementById('main');
+    const main = document.getElementById('midside');
     templatePosts.map((template, index) => {
         let postSection = document.createElement('div');
         postSection.id = `postNumber${++index}`
